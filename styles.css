@@ -1,0 +1,17 @@
+#heading {
+        color:green;
+       }
+       #para1{
+        color: darkmagenta;
+       }
+
+       .headingTwo{
+        color: blueviolet;
+        font-style: italic;
+       }
+
+       a:hover{
+        /* color is greenYellow*/
+        color:greenyellow;
+        font-weight: 600;
+       }

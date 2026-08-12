@@ -1,72 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Blog</title>
+    <head>
+    <title>CSS</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    </head>
+    <body>
+        <!-- block elements -->
+        <div>This is div1</div>
+        <div>This is div2</div>
+        <p>This is <strong style="color:red">Para 1</strong></p>
+        <h1>This is div2</h1>
+    </body>
+    <footer>This is footer</footer>
+    <!-- inline elements -->
+     <span>This is span 1.</span>
+     <span>This is span 2.</span>
+     <a href="/">This is a link.</a>
+     <!-- inline block elements -->
 
-<body>
-    <!-- Blog Header -->
-    <header class="blog-header">
-        <h1>BLOG TITLE</h1>
-    </header>
-
-    <!-- Navigation -->
-    <nav class="container navigation">
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a href="/" class="link">Home</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a href="/categories" class="link">Categories</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a href="/about" class="link">About</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Blog Post Title -->
-    <section class="container blog-title">
-        <h2>Blog Post Title</h2>
-    </section>
-
-    <!-- Blog Content Preview -->
-    <section class="container content-preview">
-        <h3>Blog Post Content Preview</h3>
-    </section>
-
-    <!-- Blog Posts -->
-    <section class="container posts">
-
-        <div class="post">
-            <p>Post 1</p>
-        </div>
-
-        <div class="post">
-            <p>Post 2</p>
-        </div>
-
-        <div class="post">
-            <p>Post 3</p>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer class="container footer">
-        <ul class="list-non-bullet">
-            <li class="list-item-inline">
-                <a href="/contact" class="link">Contact</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a href="/privacy" class="link">Privacy Policy</a>
-            </li>
-        </ul>
-    </footer>
-
-</body>
+     <div style="display: inline-block;height: 200px; border:1px solid green">This is displaying inline-block element.</div>
 </html>

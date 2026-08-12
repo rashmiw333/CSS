@@ -1,17 +1,108 @@
-#heading {
-        color:green;
-       }
-       #para1{
-        color: darkmagenta;
-       }
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
 
-       .headingTwo{
-        color: blueviolet;
-        font-style: italic;
-       }
+/* Common container */
+.container {
+    width: 95%;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
 
-       /* a:hover{
-        color is greenYellow */
-        /* color:greenyellow;
-        font-weight: 600;
-       } */
+.blog-header {
+    width: 95%;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #606060;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.blog-header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.navigation {
+    background-color: #777;
+    padding: 25px;
+    text-align: center;
+}
+
+.nav-pills {
+    margin: 0;
+    padding: 0;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item-inline {
+    display: inline;
+    margin: 0 35px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.blog-title {
+    border: 2px solid #ddd;
+    padding: 35px;
+    text-align: center;
+}
+
+.blog-title h2 {
+    margin: 0;
+    font-size: 42px;
+}
+
+.content-preview {
+    border: 2px solid #ddd;
+    padding: 35px;
+}
+
+.content-preview h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.posts {
+    border: 2px solid #ddd;
+    padding: 55px 35px;
+}
+
+.post {
+    border-bottom: 2px solid #ddd;
+    padding: 5px 0;
+}
+
+.post p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #606060;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer .list-non-bullet {
+    margin: 0;
+}
+
+.footer .link {
+    font-size: 25px;
+}

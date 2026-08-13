@@ -1,22 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title>CSS</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <!-- block elements -->
-        <div>This is div1</div>
-        <div>This is div2</div>
-        <p>This is <strong style="color:red">Para 1</strong></p>
-        <h1>This is div2</h1>
-    </body>
-    <footer>This is footer</footer>
-    <!-- inline elements -->
-     <span>This is span 1.</span>
-     <span>This is span 2.</span>
-     <a href="/">This is a link.</a>
-     <!-- inline block elements -->
+<head>
+  <title>Company Website</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
 
-     <div style="display: inline-block;height: 200px; border:1px solid green">This is displaying inline-block element.</div>
+<body>
+  <header>
+    <nav class="container navigation">
+
+      <a href="index.html" class="nav-brand link">
+        Company Logo
+      </a>
+
+      <ul class="list-non-bullet nav-pills">
+
+        <li class="list-item-inline">
+          <a href="index.html" class="link">Home</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a href="employee.html" class="link">Employee</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a href="report.html" class="link">Report</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+  <section class="section-image">
+    <img
+      src="https://placehold.co/400x300?text=Employees+Smiling"
+      alt="Employees Smiling"
+    >
+  </section>
+
+  <section>
+    <h2>Our Employees</h2>
+
+    <p>
+      Meet our dedicated team of professionals who work tirelessly
+      to achieve our company's goal.
+    </p>
+
+    <a href="employee.html" class="link link-primary btn-employee">View Employees</a>
+  </section>
+
+  <section>
+    <h2>Company Report</h2>
+
+    <p>
+      Explore our latest financial report to gain insights into our
+      company's performance and growth.
+    </p>
+
+    <a href="report.html" class="link link-secondary btn-report">View Report</a>
+  </section>
+
+   <section>
+    <h2>Our Employees</h2>
+
+    <p>
+      Meet our dedicated team of professionals who work tirelessly
+      to achieve our company's goal.
+    </p>
+
+    <a href="employee.html" class="link link-primary btn-employee">View Employees</a>
+  </section>
+
+  <section>
+    <h2>Company Report</h2>
+
+    <p>
+      Explore our latest financial report to gain insights into our
+      company's performance and growth.
+    </p>
+
+    <a href="report.html" class="link link-secondary btn-report">View Report</a>
+  </section>
+
+</main>
+
+ <footer>
+  <p>@ 2023 Company Name. All rights reserved.</p>
+</footer>
+</body>
 </html>

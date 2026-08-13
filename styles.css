@@ -70,15 +70,19 @@ section {
   width:100%;
   background-color: var(--primary-color);
   color: white;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .nav-brand {
   font-weight: bold;
+  position: relative;
+  top:20px
 }
 
 .nav-pills {
   text-align: right;
+  position: relative;
+  bottom: 1opx;
 }
 
 .navigation .link {

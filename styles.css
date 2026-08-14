@@ -1,96 +1,48 @@
-body {
-  margin: 20px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Question 1 */
-
-.item-two {
-  position: relative;
-  left: 30px;
+.col {
+  border: 1px solid black;
+  background-color: aquamarine;
+  padding: 0.5rem;
 }
 
-.item-three {
-  position: relative;
-  left: 60px;
+.nav-items {
+  list-style: none;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  padding: 0.5rem;
+  flex-grow: 1;
 }
 
-/* Question 2 */
-
-.box-display{
-  margin-bottom: 100px;
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.gray-box {
-  width: 100px;
-  height: 100px;
-  background-color: lightgray;
-  display: inline-block;
+.card {
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.box-two {
-  position: relative;
-  top: 30px;
+.alignedRow{
+  display:flex;
+  flex-wrap: wrap;
+  height: 500px;
+  align-items: center;
+  border: 1px solid black
 }
 
-.box-three {
-  position: relative;
-  top: 60px;
-}
-
-/* Question 3 */
-
-.container {
-  width: 300px;
-  height: 300px;
-  background-color: lightgray;
-  position: relative;
-}
-
-.pink-box {
-  width: 150px;
-  height: 150px;
-  padding: 5px;
-  background-color: lightpink;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
-
-/* Question 4 */
-
-.wrapper {
-  border: 2px solid black;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-.menu {
-  background-color: lightpink;
-  padding: 8px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.content {
-  width: 200px;
-  height: 300px;
-  padding: 10px;
-  background-color: lightgray;
-  display: inline-block;
-}
-
-/* Question 5 */
-
-.menu-wrapper {
-  border: 2px solid black;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-.menu-box {
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  background-color: lightgray;
-  display: inline-block;
+.end{
+  align-self: flex-end;
 }

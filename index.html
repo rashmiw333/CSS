@@ -3,227 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS HW3</title>
-
+  <title>CSS5_HW4</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
+  
   <!-- Question 1 -->
-
-  <h2>Question 1</h2>
-
-  <div class="container q1">
-    <div class="box"></div>
-  </div>
-
-
-
-  <!-- Question 2 -->
-
-  <h2>Question 2</h2>
-
-  <div class="container q2">
-    <div class="box"></div>
-  </div>
-
-
-
-  <!-- Question 3 -->
-
-  <h2>Question 3</h2>
-
-  <nav class="navbar">
-    <div class="nav-item">Home</div>
-    <div class="nav-item">About</div>
-    <div class="nav-item">Products</div>
-    <div class="nav-item">Cart</div>
-    <div class="nav-item">Wishlist</div>
-  </nav>
-
-
-
-  <!-- Question 4 -->
-
-  <h2>Question 4</h2>
-
-  <div class="profile-card">
-
-   <img src="https://placehold.co/150x150"
-    alt="profile">
-
-    <h3>John Doe</h3>
-
-    <p>Web Developer</p>
-
-  </div>
-
-
-
-  <!-- Question 5 -->
-
-  <h2>Question 5</h2>
-
-  <div class="course-card">
-
-    <h3>FULL STACK COURSE</h3>
-
-    <img src="https://placehold.co/150x150"
-     alt="course">
-
-    <p>
-      Discover the neoG Full Stack Development Course,
-      offering expert-led training in MERN stack.
-    </p>
-
-    <button>Enroll Now</button>
-
-  </div>
-
-
-
-  <!-- Question 6 -->
-
- <h2>Question 6</h2>
-
-<div class="product-card">
-
-  <div class="product-image">
-    <img
-      src="https://placehold.co/150x150"
-      alt="product"
-    >
-  </div>
-
-  <div class="product-details">
-    <h3>Product Name</h3>
-
-    <p>
-      Product description goes here. It's a brief summary of
-      the product features.
-    </p>
-
-    <button>Buy Now</button>
-  </div>
-
-</div>
-
-
-
-  <!-- Question 7 -->
-
-  <h1>Question 7</h1>
-
-<div class="testimonial-card">
-  <p class="testimonial-text">
-    "This product is amazing! Highly recommended."
-  </p>
-
-  <div class="testimonial-user">
-    <img
-      src="https://placehold.co/50x50"
-      alt="profile"
-    />
-
-    <h3>Jane Doe</h3>
-  </div>
-</div>
-
-
-
-  <!-- Question 8 -->
-
-  <h1>Question 8</h1>
-
-<div class="pricing-card">
-  <h2>BASIC</h2>
-  <h1 class="price">$10.99/month</h1>
-  <p>Our basic plan is perfect for small teams.</p>
-
-  <ul>
-    <li>5 Projects</li>
-    <li>10GB Storage</li>
-    <li>Priority Support</li>
-    <li>Unlimited Users</li>
-  </ul>
-  <button>Buy Plan</button>
-</div>
-
-
-
-  <!-- Question 9 -->
-
-  <h2>Question 9</h2>
-
-  <div class="pricing-row">
-
-    <div class="pricing-card">
-
-      <h3>BASIC</h3>
-
-      <h2>$10.99/month</h2>
-
-      <p>Small teams.</p>
-
-      <button>Buy Plan</button>
-
+  <h1>Question 1</h1>
+    <div class="form-container">
+      <form class="content-form">
+        <label>Name:</label>
+        <input type="text">
+        <label>Email:</label>
+        <input type="email">
+        <label>Message:</label>
+        <textarea></textarea>
+        <button>Submit</button>
+      </form>
     </div>
 
-    <div class="pricing-card">
+    <!-- Question 2 -->
+     <h1>Question 2</h1>
+      <div class="login-container">
+        <form class="login-form">
+          <h2>Login</h2>
+          <label>Email</label>
+          <input type="email"/>
 
-      <h3>SILVER</h3>
+          <label>Password</label>
+          <input type="password">
+          <button>Login</button>
 
-      <h2>$14.99/month</h2>
+          <a href="#">Forget Password?</a>
+        </form>
+      </div>
 
-      <p>Medium teams.</p>
+      <!-- Question 3 -->
+       <h1>Question 3</h1>
+       <div class="Gallary-container">
+        <h1>Photo Gallary</h1>
 
-      <button>Buy Plan</button>
+        <nav class="navbar">
+          <a href="#" class="active">All</a>
+          <a href="#">Nature</a>
+          <a href="#">Birds</a>
+          <a href="#">Animals</a>
+        </nav>
 
+        <div class="photo-grid">
+          <div class="photo-card">Nature</div>
+          <div class="photo-card">Birds</div>
+          <div class="photo-card">Animals</div>
+        </div>
+
+        <!-- Question 4 -->
+
+        <h1>Question 4</h1>
+
+        <div class="pricing-container">
+        <div class="plan-card">
+          <div class="offer">1 month Free</div>
+          <h2>Basic Plan</h2>
+          <p class="price">$9.99/mo</p>
+          <hr />
+          <p>Ad-free music listening</p>
+          <p>Download 10k songs/device</p>
+          <p>Login from 3 devices</p>
+          <button>Sign Up</button>
+        </div>
+        <div class="plan-card">
+          <div class="offer">1 month Free</div>
+          <h2>Pro Plan</h2>
+          <p class="price">$19.99/mo</p>
+          <hr />
+          <p>Ad-free music listening</p>
+          <p>Download 20k songs/device</p>
+          <p>Login from 5 devices</p>
+          <button>Sign Up</button>
+        </div>
+        <div class="plan-card">
+          <div class="offer">1 month Free</div>
+          <h2>Enterprise Plan</h2>
+          <p class="price">$59.99/mo</p>
+          <hr />
+          <p>Ad-free music listening</p>
+          <p>Download 40k songs/device</p>
+          <p>Login from unlimited devices</p>
+          <button>Sign Up</button>
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <h1>Question 5</h1>
+        <div class="review-order">
+        <h2>Review Order</h2>
+        <div class="table-heading">
+          <h3>ITEM</h3>
+          <h3>QTY</h3>
+          <h3>TOTAL</h3>
+        </div>
+        <div class="product-details">
+          <div class="item">
+            <div class="product-image">50 × 50</div>
+            <p>
+              Limited edition cactus print bag <br />
+              1 litre, green color
+            </p>
+          </div>
+          <div class="quantity">1</div>
+          <div class="total">INR 999</div>
+        </div>
+
+        <div class="price-details">
+          <div class="price-row">
+            <span>Subtotal</span>
+            <span>INR 999</span>
+          </div>
+
+          <div class="price-row">
+            <span>GST</span>
+            <span>INR 179</span>
+          </div>
+
+          <div class="price-row grand-total">
+            <span>Grand Total</span>
+            <span>INR 1178</span>
+          </div>
+        </div>
+        <button class="order-btn">PLACE ORDER</button>
+        <p class="payment-text">Cart Secured by Razorpay</p>
+        </div>
     </div>
-
-    <div class="pricing-card">
-
-      <h3>PREMIUM</h3>
-
-      <h2>$20.99/month</h2>
-
-      <p>Large teams.</p>
-
-      <button>Buy Plan</button>
-
-    </div>
-
-  </div>
-
-
-
-  <!-- Question 10 -->
-
-  <footer class="footer">
-  <div class="footer-links">
-    <div class="footer-column">
-      <p>Privacy Policy</p>
-      <p>Terms</p>
-      <p>Legal</p>
-    </div>
-
-    <div class="footer-column">
-      <p>About</p>
-      <p>Team</p>
-      <p>Contact</p>
-    </div>
-
-    <div class="footer-column">
-      <p>Photos</p>
-      <p>Testimonials</p>
-    </div>
-  </div>
-
-  <p class="copyright">
-    2024 Design Studio. All rights reserved.
-  </p>
-</footer>
-
 </body>
 </html>

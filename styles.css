@@ -220,30 +220,13 @@ h2 {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .footer-column {
   min-width: 200px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 10px;
-}
-
-.footer-column p {
-  margin: 0;
 }
 
 .copyright {
   margin-top: 40px;
-}
-
-@media (max-width: 700px) {
-  .footer-links {
-    flex-direction: column;
-  }
 }

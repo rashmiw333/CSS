@@ -2,7 +2,7 @@
 
 .form-container{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .content-form{
@@ -35,7 +35,7 @@ button{
 /* Question 2 */
 .login-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .login-form {
@@ -189,8 +189,24 @@ button {
   color: gray;
 }
 
-.item p {
-  line-height: 1.5;
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.item {
+  width: 350px;
+}
+
+.quantity {
+  width: 300px;
+  text-align: left;
+}
+
+.total {
+  width: 100px;
+  text-align: right;
 }
 
 .price-details {

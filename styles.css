@@ -1,11 +1,12 @@
 body {
-  margin: 0;
+  margin: 10px;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  
 }
 
 header {

@@ -1,138 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS5_HW4</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html>
+  <head>
+    <title>Blog Page</title>
 
-  <!-- Question 1 -->
-  <h1>Question 1</h1>
-    <div class="form-container">
-      <form class="content-form">
-        <label>Name:</label>
-        <input type="text">
-        <label>Email:</label>
-        <input type="email">
-        <label>Message:</label>
-        <textarea></textarea>
-        <button>Submit</button>
-      </form>
-    </div>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <!-- Question 2 -->
-     <h1>Question 2</h1>
-      <div class="login-container">
-        <form class="login-form">
-          <h2>Login</h2>
-          <label>Email</label>
-          <input type="email"/>
+  <body>
+    <div class="container">
+      <!-- Header -->
 
-          <label>Password</label>
-          <input type="password">
-          <button>Login</button>
+      <header>
+        <nav>
+          <div class="left-menu">
+            <a href="#">HOME</a>
+            <a href="#">TAG</a>
+            <a href="#">AUTHOR</a>
+            <a href="#">HELP</a>
+          </div>
 
-          <a href="#">Forget Password?</a>
-        </form>
-      </div>
+          <div class="right-menu">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-moon"></i>
 
-      <!-- Question 3 -->
-       <h1>Question 3</h1>
-       <div class="gallary-container">
-        <h1>Photo Gallary</h1>
-
-        <nav class="navbar">
-          <a href="#" class="active">All</a>
-          <a href="#">Nature</a>
-          <a href="#">Birds</a>
-          <a href="#">Animals</a>
+            <button>Subscribe</button>
+          </div>
         </nav>
 
-        <div class="photo-grid">
-          <div class="photo-card">Nature</div>
-          <div class="photo-card">Birds</div>
-          <div class="photo-card">Animals</div>
+        <div class="hero-text">
+          <h1>ghost</h1>
+          <p>Thoughts, stories, and ideas.</p>
         </div>
+      </header>
 
-        <!-- Question 4 -->
+      <!-- Featured Post -->
 
-        <h1>Question 4</h1>
+      <section class="featured-post">
+        <img src="images/image1.png" />
 
-        <div class="pricing-container">
-        <div class="plan-card">
-          <div class="offer">1 month Free</div>
-          <h2>Basic Plan</h2>
-          <p class="price">$9.99/mo</p>
-          <hr />
-          <p>Ad-free music listening</p>
-          <p>Download 10k songs/device</p>
-          <p>Login from 3 devices</p>
-          <button>Sign Up</button>
-        </div>
-        <div class="plan-card">
-          <div class="offer">1 month Free</div>
-          <h2>Pro Plan</h2>
-          <p class="price">$19.99/mo</p>
-          <hr />
-          <p>Ad-free music listening</p>
-          <p>Download 20k songs/device</p>
-          <p>Login from 5 devices</p>
-          <button>Sign Up</button>
-        </div>
-        <div class="plan-card">
-          <div class="offer">1 month Free</div>
-          <h2>Enterprise Plan</h2>
-          <p class="price">$59.99/mo</p>
-          <hr />
-          <p>Ad-free music listening</p>
-          <p>Download 40k songs/device</p>
-          <p>Login from unlimited devices</p>
-          <button>Sign Up</button>
+        <div class="featured-content">
+          <h4>GETTING STARTED</h4>
+
+          <h2>Welcome to Ghost</h2>
+
+          <p>
+            Welcome, it's great to have you here. We know that first impressions
+            are important, so we've populated your new site with some initial
+            getting started posts.
+          </p>
+
+          <div class="author">
+            <span>GHOST</span>
+            <span>25 FEB 2020 • 1 MIN READ</span>
           </div>
         </div>
+      </section>
 
-        <!-- Question 5 -->
-        <h1>Question 5</h1>
-        <div class="review-order">
-        <h2>Review Order</h2>
-        <div class="table-heading">
-          <h3>ITEM</h3>
-          <h3>QTY</h3>
-          <h3>TOTAL</h3>
-        </div>
-        <div class="product-details">
-          <div class="item">
-            <div class="product-image">50 × 50</div>
-            <p>
-              Limited edition cactus print bag <br />
-              1 litre, green color
-            </p>
-          </div>
-          <div class="quantity">1</div>
-          <div class="total">INR 999</div>
+      <hr />
+
+      <!-- Three Cards -->
+
+      <section class="cards-row">
+        <div class="card">
+          <img src="images/image2.png" />
+
+          <h4>GETTING STARTED</h4>
+
+          <h3>Writing posts with Ghost ✍</h3>
+
+          <p>
+            Discover familiar formatting options in a functional toolbar.
+          </p>
+
+          <span>GHOST • 3 MIN READ</span>
         </div>
 
-        <div class="price-details">
-          <div class="price-row">
-            <span>Subtotal</span>
-            <span>INR 999</span>
-          </div>
+        <div class="card">
+          <img src="images/image3.png" />
 
-          <div class="price-row">
-            <span>GST</span>
-            <span>INR 179</span>
-          </div>
+          <h4>GETTING STARTED</h4>
 
-          <div class="price-row grand-total">
-            <span>Grand Total</span>
-            <span>INR 1178</span>
-          </div>
+          <h3>Publishing options</h3>
+
+          <p>
+            The Ghost editor post settings menu has everything you need.
+          </p>
+
+          <span>GHOST • 2 MIN READ</span>
         </div>
-        <button class="order-btn">PLACE ORDER</button>
-        <p class="payment-text">Cart Secured by Razorpay</p>
+
+        <div class="card">
+          <img src="images/image4.png" />
+
+          <h4>GETTING STARTED</h4>
+
+          <h3>Managing admin settings</h3>
+
+          <p>
+            There are a couple of things to do next while getting set up.
+          </p>
+
+          <span>GHOST • 2 MIN READ</span>
         </div>
+      </section>
+
+      <hr />
+
+      <!-- Two Cards -->
+
+      <section class="cards-row bottom">
+        <div class="card large">
+          <img src="images/image5.png" />
+
+          <h4>GETTING STARTED</h4>
+
+          <h3>Writing posts with Ghost ✍</h3>
+
+          <p>
+            Discover familiar formatting options in a functional toolbar.
+          </p>
+        </div>
+
+        <div class="card large">
+          <img src="images/image6.png" />
+
+          <h4>GETTING STARTED</h4>
+
+          <h3>Publishing options</h3>
+
+          <p>
+            The Ghost editor post settings menu has everything you need.
+          </p>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>

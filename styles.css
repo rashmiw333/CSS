@@ -1,133 +1,33 @@
-body {
-  margin: 10px;
-  font-family: Arial, sans-serif;
+/* mobile size */
+
+h1{
+  text-decoration: underline;
 }
 
-.container {
-  width: 100%;
-  min-height: 100vh;
-  
+/* body{
+  background-color: yellow;
+  font-size: 14px;
 }
 
-header {
-  background: #111;
-  height: 500px;
-  color: white;
-  position: relative;
+@media (min-width: 600px) {
+  body{
+    background-color: white;
+    font-size: 20px;
+  }
+} */
+
+body{
+  background-color: aqua;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px;
+@media (max-width: 600px){
+  body{
+  background-color: yellow;
+}
 }
 
-.left-menu a {
-  color: white;
-  text-decoration: none;
-  margin-right: 30px;
-  font-size: 20px;
+@media (width: 750px) {
+  body{
+   background-color: white;
 }
-
-.right-menu {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.right-menu button {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-
-.hero-text h1 {
-  font-size: 70px;
-  margin-bottom: 10px;
-}
-
-.hero-text p {
-  color: gray;
-  font-size: 28px;
-}
-
-.featured-post {
-  display: flex;
-  gap: 30px;
-  margin: 60px 0;
-}
-
-.featured-post img {
-  width: 65%;
-}
-
-.featured-content {
-  width: 35%;
-}
-
-.featured-content h4 {
-  color: blue;
-}
-
-.featured-content h2 {
-  font-size: 55px;
-}
-
-.featured-content p {
-  color: gray;
-  line-height: 1.5;
-  font-size: 25px;
-}
-
-.author {
-  margin-top: 40px;
-  color: gray;
-  display: flex;
-  flex-direction: column;
-}
-
-.cards-row {
-  display: flex;
-  gap: 30px;
-  margin: 50px 0;
-}
-
-.card {
-  width: 33%;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.card h4 {
-  color: blue;
-}
-
-.card h3 {
-  font-size: 35px;
-}
-
-.card p {
-  color: gray;
-  font-size: 24px;
-}
-
-.card span {
-  color: gray;
-}
-
-.bottom .large {
-  width: 50%;
 }

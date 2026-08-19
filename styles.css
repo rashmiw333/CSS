@@ -16,7 +16,8 @@ body{
 /* Question 2 */
 
 @media(min-width:900px){
-   body{
+  /* heading tag */
+   h1{
     font-size: 30px;
    }
 }
@@ -27,8 +28,8 @@ body{
   width: 200px;
   background-color: aqua;
  }
-
- @media(min-width:600px) {
+ /* size 600 and small */
+ @media(max-width:600px) {
   .sidebar{
     display: none;
   }
@@ -36,15 +37,16 @@ body{
 
  /* Question 4 */
  @media(min-height:700px){
-   .sidebar p{
+  /* remove ealier class */
+  p{
    color:blue;
    }
  }
 
  /* Question 5 */
-
   @media(min-width:1000px){
-    h1{
+    /* added header */
+    header{
       background-color: green;
     }
   }
@@ -75,7 +77,7 @@ text-align: center;
   width: 50%;
 }
 
-@media(max-width:400px){
+@media(max-width:399px){
   .container{
     width:80%
   }
@@ -84,18 +86,18 @@ text-align: center;
 /* Question 9: */
 
 @media(min-width:600px)and(max-width:900px){
-  .sidebar .container p{
+   p{
     font-size: 16px;
   }
 }
 /* Question 10: */
 
-hover a{
+ a{
   color:blueviolet;
 }
 
 @media(min-width:1000px){
-  .hover a{
+   a{
     color: orange;
   }
 }

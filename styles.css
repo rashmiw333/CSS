@@ -4,30 +4,101 @@ h1{
   text-decoration: underline;
 }
 
-/* body{
-  background-color: yellow;
-  font-size: 14px;
-}
-
-@media (min-width: 600px) {
-  body{
-    background-color: white;
-    font-size: 20px;
-  }
-} */
-
 body{
+  background-color: white;
+}
+ /* Question 1 */
+@media(max-width:800px){
+  body{
+    background-color: lightgray;
+  }
+}
+
+/* Question 2 */
+
+@media(min-width:900px){
+   body{
+    font-size: 30px;
+   }
+}
+
+ /* Question 3 */
+
+ .sidebar{
+  width: 200px;
   background-color: aqua;
+ }
+
+ @media(min-width:600px) {
+  .sidebar{
+    display: none;
+  }
+ }
+
+ /* Question 4 */
+ @media(min-height:700px){
+   .sidebar p{
+   color:blue;
+   }
+ }
+
+ /* Question 5 */
+
+  @media(min-width:1000px){
+    h1{
+      background-color: green;
+    }
+  }
+
+  /* Question 6 */
+
+  @media(max-height:500px){
+    body{
+      font-size: 12px;
+    }
+  }
+
+  /* Question 7 */
+
+footer{
+  text-align: left;
+}
+@media(width:1024px){
+  footer{
+text-align: center;
+}
 }
 
-@media (max-width: 600px){
-  body{
-  background-color: yellow;
-}
+
+/* Question 8: */
+
+.container {
+  width: 50%;
 }
 
-@media (width: 750px) {
-  body{
-   background-color: white;
+@media(max-width:400px){
+  .container{
+    width:80%
+  }
 }
+
+/* Question 9: */
+
+/* Write a media query that changes 
+the font size of all paragraphs (p) to 16px when the screen width is between 600px and 900px. */
+@media(min-width:600px)and(max-width:900px){
+  .sidebar .container p{
+    font-size: 16px;
+  }
+}
+/* Question 10: */
+
+hover a{
+  color:blueviolet;
+}
+
+@media(min-width:1000px){
+  .hover a{
+    color: orange;
+  }
 }
